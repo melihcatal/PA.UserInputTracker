@@ -24,5 +24,21 @@
   },
   "dependencies": {
     "iohook": "https://github.com/melihcatal/iohook.git"
+  },
+  "iohook": {
+    "targets": [
+      "electron-85"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32",
+      "arm64"
+    ]
   }
+
 }
